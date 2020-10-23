@@ -14,7 +14,6 @@ const CommentSchema    = new mongoose.Schema({
     },
     parent :{
         type :String,
-        required :true ,
         max : 255
     },
     date :{
